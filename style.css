@@ -1,0 +1,124 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    display: block;
+    min-height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+.dun__game-box {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    min-height: 100vh;
+}
+
+.dun__inv-and-text {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.dun__text-box {
+    background-color: yellow;
+
+}
+
+.dun__inv-and-coo {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.dun__char-box {
+    background-color: rgb(217, 217, 217);
+    padding: 2em 1.5em;
+
+}
+
+.dun__char-name-an-hp {
+    background-color: rgb(242, 154, 154);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dun__char-hp-box {
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    align-items: center;
+    height: 3em;
+}
+
+.dun__char-stats {
+    padding: 0;
+    display: grid;
+    gap: 8px;
+}
+
+.dun__char-stat-box {
+    background-color: rgb(243, 76, 76);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dun__char-stat-name {
+    color: white;
+}
+
+.dun__char-stat-number {
+    background-color: rgb(217, 217, 217);
+    padding: 4px;
+}
+
+.dun__dice-and-reso {
+    display: flex;
+    gap: 4em;
+}
+
+.dun__dice-but {
+    background-color: rgb(222, 20, 20);
+    padding: 0px 20px;
+    border-color: transparent;
+    width: 44%;
+}
+
+.dun__dice-svg {
+    height: 5em;
+}
+
+.dun__dice-reso {
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    background-color: rgb(240, 23, 23);
+    padding: 8px;
+    width: 1em;
+    height: 1em;
+    justify-content: center;
+}
+
+.dun__inv-box {
+    background-color: rgb(127, 150, 240);
+    padding: 1em 1em;
+
+}
+
+.dun__inv-head {
+    text-align: center;
+}
+
+.dun__inv-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 0;
+}
+
+.dun__inv-item {
+    display: flex;
+    gap: 8px;
+    background-color: rgb(217, 217, 217);
+    padding: 0px 18px;
+}
